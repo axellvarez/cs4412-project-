@@ -1,7 +1,7 @@
 # Competitive Pokémon TCG Data Mining: Structural Analysis
 **Author:** Axel Alvarez  
 **Course:** CS 4412: Data Mining  
-**Status:** Milestone 3: Advanced Implementation & Discovery
+**Status:** Milestone 3: Compelte Implementation
 
 ---
 
