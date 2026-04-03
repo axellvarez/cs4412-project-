@@ -1,12 +1,12 @@
 # Competitive Pokémon TCG Data Mining: Structural Analysis
 **Author:** Axel Alvarez  
 **Course:** CS 4412: Data Mining  
-**Status:** Milestone 3: Compelte Implementation
+**Status:** Milestone 3: Complete Implementation
 
 ---
 
 ## Project Overview
-This project utilizes the **Knowledge Discovery in Databases (KDD)** process to deconstruct the competitive Pokémon TCG metagame. By leveraging live tournament data via the **Limitless TCG API**, the analysis moves beyond descriptive frequency counts to mathematically define the **"Immutable Core"** of top-tier archetypes and quantify the performance costs of strategic innovation.
+This project utilizes the **Knowledge Discovery in Databases (KDD)** process to deconstruct the competitive Pokémon TCG metagame. By leveraging live tournament data via the **Limitless TCG API**, the analysis moves beyond descriptive frequency counts to mathematically define the **"Immutable Core"** of top-tier archetypes.
 
 
 
@@ -20,19 +20,19 @@ This project utilizes the **Knowledge Discovery in Databases (KDD)** process to 
 * **Discovery:** Successfully isolated six distinct strategic engines by filtering data noise, allowing for a mathematical definition of a deck's **Immutable Core** versus its **Flex Slots**.
 
 ### **2. Dimensionality Reduction & Mapping (PCA)**
-* **Technique:** Applied **Principal Component Analysis (PCA)** to condense the 811-feature card matrix into a two-dimensional "Metagame Geography."
+* **Technique:** Applied **Principal Component Analysis (PCA)** to condense the 811-feature card matrix into a two-dimensional "Metagame Graph."
 * **Visualization:** Identified distinct archetype islands representing optimized competitive strategies, revealing how decks cluster based on shared core utilities.
 
 
 
 ### **3. Anomaly Detection (Local Outlier Factor)**
 * **Technique:** Integrated **Local Outlier Factor (LOF)** to identify **"Rogue"** archetypes as density-based outliers.
-* **Metric:** By analyzing local density rather than simple distance, the model flagged decks sitting in the "white space" of the metagame map—innovative lists that defy standard cluster conventions.
+* **Metric:** By analyzing local density rather than simple distance, the model flagged decks sitting in the white space of the metagame map innovative lists that defy standard cluster conventions.
 
 
 
 ### **4. Classification & Performance Correlation**
-* **Interpreter:** Trained a **Decision Tree Classifier** to translate abstract PCA coordinates into human-readable rules, identifying the **"Buddy-Buddy Poffin"** engine as the primary axis of metagame divergence.
+* **Interpreter:** Trained a **Decision Tree Classifier** to translate abstract PCA coordinates into human-readable rules, identifying the **"Buddy-Buddy Poffin"** engine as the primary cause of the divergence of the metagame.
 
 ---
 
